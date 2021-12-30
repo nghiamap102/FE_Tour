@@ -1,0 +1,136 @@
+
+.modal-content {
+    top: 50px;
+    z-index: 99999;
+}
+
+.modal-content {
+    border-radius: 30px!important;
+}
+
+.modal-dialog .modal-header {
+    justify-content: center;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-header h5 {
+    font-weight: 600;
+    color: gray;
+}
+
+.modal-dialog .form-group {
+    position: relative;
+    display: grid;
+    grid-template-columns: 7% 87% 6%;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.modal-dialog .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-dialog .icon i {
+    color: #fd7e14;
+}
+
+.modal-dialog .form-group>div {
+    position: relative;
+    height: 40px;
+}
+
+.modal-dialog .btn-login {
+    margin: auto;
+    width: 50%;
+}
+
+.modal-dialog .btn-login input {
+    background-color: wheat;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 14px;
+}
+
+.modal-dialog .btn-login input:hover {
+    background-color: rgb(247, 153, 14);
+}
+
+.remember {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.remember label {
+    cursor: pointer;
+}
+
+.link-register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-register p {
+    margin: 0;
+}
+
+.link-register a {
+    color: rgb(226, 187, 115);
+    font-weight: 600;
+}
+
+.link-register a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.icon-social-network {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-social-network .list-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-social-network li {
+    margin-left: 15px;
+}
+
+.icon-social-network a {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    height: 34px;
+    width: 34px;
+    text-align: center;
+    background: rgb(240, 123, 45);
+}
+
+.icon-social-network i {
+    font-size: 18px;
+    line-height: 34px;
+    color: wheat;
+}
+
+#eye-open {
+    display: none;
+}
+
+.eye {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(240, 123, 45);
+    cursor: pointer;
+}

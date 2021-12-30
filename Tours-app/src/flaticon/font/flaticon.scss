@@ -1,0 +1,41 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?3e4413c48ebcb1a326e6c82660528acd") format("truetype"),
+url("./flaticon.woff?3e4413c48ebcb1a326e6c82660528acd") format("woff"),
+url("./flaticon.woff2?3e4413c48ebcb1a326e6c82660528acd") format("woff2"),
+url("./flaticon.eot?3e4413c48ebcb1a326e6c82660528acd#iefix") format("embedded-opentype"),
+url("./flaticon.svg?3e4413c48ebcb1a326e6c82660528acd#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "paragliding": "\f101",
+    "map": "\f102",
+    "destination": "\f103",
+    "guide": "\f104",
+);
+
+.flaticon-paragliding:before {
+    content: map-get($flaticon-map, "paragliding");
+}
+.flaticon-map:before {
+    content: map-get($flaticon-map, "map");
+}
+.flaticon-destination:before {
+    content: map-get($flaticon-map, "destination");
+}
+.flaticon-guide:before {
+    content: map-get($flaticon-map, "guide");
+}

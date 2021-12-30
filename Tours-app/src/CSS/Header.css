@@ -1,0 +1,102 @@
+.tour_dropdown .dropdown-menu{
+    width: 800px;
+    height: auto;
+    left: -300px;
+}
+.row_wrapper{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tour_dropdown .row{
+    width: 100%;
+}
+.title_domain{
+    margin-bottom: 20px;
+}
+.title_domain a{
+    font-weight: 600;
+    font-size: 18px;
+    color: #2d4271;
+
+}
+.title_domain a:hover{
+    color: #fcb141;
+}
+.list_conscious li{
+    margin-bottom: 10px;
+}
+.list_conscious a{
+    color: #2d4271;
+    font-weight: 300;
+    font-size: 14px;
+}
+.account_path{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.img_header{
+    position: relative;
+    height: 58px;
+    width: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    cursor: pointer;
+}
+.img_header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img_header:hover{
+    border: 4px solid rgb(193, 193, 193);
+}
+
+.img_header img{
+    width: 150%;
+}
+.path_wrapper{
+    display: flex;
+    position: relative;
+}
+.dropdown_wrapper{
+    padding: 15px;
+}
+.dropdown_wrapper div{
+    margin-bottom: 10px;
+}
+.logout_path{
+    cursor: pointer;
+}
+.name_user{
+    display: flex;
+    align-items: center;
+}
+.name_user a{
+    color: white;
+    font-weight: 600;
+}
+.name_user a:hover{
+    color: wheat;
+}
+.src_login{
+    padding: 20px;
+}
+.dropdown_wrapper a,.dropdown_wrapper span{
+    color: black;
+    font-weight: 600;
+}
+.dropdown_wrapper a:hover{
+    color: black;
+}
+.logout_gg{
+    cursor: pointer;
+    font-weight: 600;
+}

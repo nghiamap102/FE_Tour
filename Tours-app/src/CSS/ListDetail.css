@@ -1,0 +1,257 @@
+.heading_listdetail{
+    text-align: center;
+}
+.tour_tag h3{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.tour_tag{
+    padding-bottom: 20px;
+    border-bottom: 1px rgb(177, 177, 177) solid;
+}
+.content_bot p {
+    text-align: left;
+    padding: 20px 0px;
+}
+
+/* ----------------searrch------------ */
+.title_search span{
+    font-weight: 700;
+    font-size: 22px;
+    color: #2d4271;
+    padding: 15px;
+}
+.cate_tour{
+    background-color: #b64efc;
+    padding:5px 15px;
+    color: white;
+}
+.label_search{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+    color: #2d4271;
+    margin-bottom: 14px;
+}
+.group_search{
+    position: relative;
+    margin-top: 20px;
+}
+
+.list_btn  label{
+    margin-bottom: 10px;
+    text-align: center;
+}
+.list_btn label:hover{
+    background-color: #b64efc;
+    color: white;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 30px;
+    height: 15px;
+}
+.switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+.slider.round{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgb(189, 189, 189);
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.slider::before {
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 10px;
+    left: 3px;
+    bottom: 3px;
+    border-radius: 50%;
+    background-color: white;
+    transition: .4s ease;
+}
+.switch input:checked +.slider::before{
+    transform: translateX(125%);
+    -ms-transform: translateX(125%);
+    -moz-transform: translateX(125%);
+    -o-transform: translateX(125%);
+}
+.switch input:checked + .slider.round {
+    background-color: #b64efc;
+}
+
+.filter_ {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.filter_ label {
+    margin-bottom: 0!important;
+    margin-right: 5px;
+}
+.card_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 25px 25px 0px 0px;
+    border: 1px solid rgb(190, 189, 189);
+}
+.card_wrapper:hover{
+    box-shadow: 0.3px .3rem 15px 1px rgba(0,0,0,40%)
+}
+.img_{
+    position: relative;
+    display: flex;
+    height: 230px;
+    width: 100%;
+    border-radius: 25px 25px 0px 0px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.body_{
+    width: 100%;
+    padding: 15px;
+}
+.rate_{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    background-color: #fdc432;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.rate_ span {
+    padding: 10px;
+    color: white;
+    font-weight: 600;
+    position: relative;
+}
+.rate_ span::before{
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-top: 8px solid #fdc432;
+    position: absolute;
+    bottom: 3px;
+    right: 0;
+    z-index: 1;
+}
+.like_list{
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    display: flex;
+    background-color: rgba(2, 2, 2, 0.3);
+    border-radius: 10px;
+    cursor: pointer;
+}
+.like_list span{
+    padding: 5px;
+    color: white;
+}
+
+.price_tour_detail{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+@media (min-width: 1200px){
+    .listour .container {
+        max-width: 1400px!important;
+    }
+}
+.path_detail {
+    margin: 15px 0px;
+}
+.path_detail a{
+    color: #2d4271;
+}
+.footer_{
+    width: 100%;
+    padding: 10px;
+}
+
+.btn_booking,.btn_detail{
+    display: flex;
+}
+.btn_booking {
+    background-color: #fdc432;
+    color: rgb(255, 255, 255);
+}
+.btn_booking span:first-child,
+.btn_detail span:first-child{
+    margin-right: 5px;
+}
+.btn_ button:hover{
+    background-color: #b64efc;
+    color: white;
+}
+.btn_ a:hover {
+    background-color: #b64efc;
+    color: rgb(255, 255, 255);
+}
+.btn__{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.remaining_{
+    margin-top: 15px;
+}
+
+.slot{
+    padding-left: 10px;
+    color: red;
+}
+
+.radio_option{
+    display: none;
+}
+
+.date_picker .rmdp-container ,.date_picker input {
+    width: 100%;
+    border: none;
+    height: 100%!important;
+}
+.date_picker input {
+    padding: 0;
+
+}
+.rmdp-container  .rmdp-input:focus{
+    border: none;
+    box-shadow: none;
+    background: none;
+}
+.date_picker .rmdp-container{
+    background: none;
+    outline: none;
+}
+.date_picker{
+    position: relative;
+}
+.icon_date{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    cursor: pointer;
+}
+.card_wrapper .price_{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}

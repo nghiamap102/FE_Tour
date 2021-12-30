@@ -1,0 +1,36 @@
+.gr_infor{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    position: relative;
+}
+.btn_enable{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    color: white;
+}
+.btn_save{
+    color: white;
+}
+.btn_add:disabled{
+    color: white;
+    background-color: rgb(219, 117, 0);
+}
+.btn_add:disabled:hover{
+    color: white;
+    background-color: rgb(207, 138, 58);
+}
+.price_section{
+    display: flex;
+    justify-content: start;
+    padding: 10px;
+}
+.price_{
+    display: flex;
+    flex-direction: column;
+}
+.price_ .form-group{
+    display: flex;
+    justify-content: space-between;
+}
+

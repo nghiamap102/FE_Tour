@@ -1,0 +1,43 @@
+
+.icon-contact span {
+    padding: 20px;
+    background: #f15d30;
+    border-radius: 50%;
+    font-size: 35px;
+    color: rgb(255, 239, 211);
+}
+
+.box-contact h3 {
+    font-size: 18px;
+    color: rgb(255, 134, 112);
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.box-contact {
+    width: 100%;
+}
+
+.box-contact a,
+.box-contact p {
+    color: gray;
+}
+
+.form-contact {
+    padding: 0 40px;
+    width: 100%;
+}
+
+.form-contact input {
+    padding: 20px 10;
+    margin-bottom: 20px;
+}
+
+.form-wrapper {
+    height: 100%;
+    align-items: center;
+}
+
+.form-contact button {
+    margin-top: 20px;
+}

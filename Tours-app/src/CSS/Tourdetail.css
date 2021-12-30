@@ -1,0 +1,342 @@
+.entry_header{
+    margin-top: 150px;
+}
+.entry_title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.src_blog{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.entry_blog{
+    position: relative;
+    height: 59px;
+    width: 62px
+}
+.entry_name{
+    margin: 0px 150px;
+    text-align: center;
+}
+.entry_name h1{
+    margin: 0;
+    line-height: 1;
+    font-family: 'Dancing Script', cursive!important;
+    font-weight: 700;
+    font-size: 60px;
+}
+.entry_name h5{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
+.entry_br{
+    height: 500px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.img_detail{
+    height: 300px;
+}
+.body_tour .img_detail{
+    background-position: center;
+    background-size: cover;
+    padding: 0px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+@media (min-width:1200px) {
+    .body_tour .container,.entry_header .container {
+        max-width: 1290px!important;
+    }
+}
+
+.img_wrapper{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+.about_tour .name_tour_detail{
+    font-family: 'Dancing Script', cursive!important;
+    font-weight: 600;
+    font-size: 35px;
+}
+.about_tour  h2,.thing_to_do h4,.tips h4,.cost h4,.calender h4,.cmt_and_rate h4{
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-weight: 100;
+    line-height: 1;
+}
+
+.content_tour{
+    margin: 40px 0px;
+}
+.dot_wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+.dot_{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    top: -2px;
+    width: 5px;
+    height: 5px;
+    background-color: #f7775e;
+}
+.list_to_do span{
+    font-size: 16px;
+}
+.thing_to_do .row{
+    margin: 50px 0px;
+}
+.things_content {
+    display: table-cell;
+    padding-left: 10px;
+}
+.img_detail span{
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    color: gray;
+    opacity: 0.6;
+    transform: translateX(-50%);
+}
+.typical_cost{
+    margin: 30px 0px;
+}
+.typical_cost span:first-child{
+    font-weight: bold;
+}
+.typical_cost span:nth-child(2){
+    color: gray;
+}
+.tips_content span:nth-child(1){
+    font-weight: bold;
+}
+.tips_content span:nth-child(0){
+    font-size: 25px;
+    color: #f7775e;
+    padding-right: 15px;
+}
+.stt{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 20px ;
+    color: #f7775e;
+}
+.tips_content .things_content{
+    vertical-align: top;
+}
+.tips_content .things_content span:nth-child(2){
+    color: gray;
+}
+.cell_top{
+    display: table-cell;
+    vertical-align: top;
+}
+.tips .img_wrapper{
+    margin: 30px 0px;
+}
+.content_calender {
+    margin: 20px 0px;
+    line-height: 1.8;
+    color: gray;
+}
+
+.grid_img_calender {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 30px;
+    margin: 80px 0px;
+}
+.grid_img_calender span{
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    font-size: 18px;
+    letter-spacing: 3px;
+    transform: translateX(-50%);
+}
+.extra_info{
+    display: flex;
+    justify-content: start  ;
+    margin: 60px 0px;
+}
+.tag_info{
+    display: flex;
+    color: gray;
+    align-items: center;
+}
+.tag_info span{
+    padding-right: 5px;
+   
+}
+.tag_info a{
+    color: gray;
+    font-family: 'Petemoss', cursive!important;
+}
+.tag_info a:hover{
+    color: black;
+}
+.icon_cmt_extra{
+    padding-left: 15px;
+}
+.icon_cmt_extra i {
+    padding-right: 3px;
+}
+    
+.rate_wrapper{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+.rate_avg{
+    color: gray;
+    font-weight: 400;
+    letter-spacing: 4px;
+    /* padding-bottom: 10px; */
+    line-height: 1;
+}
+.digit_count{
+    font-weight: 600;
+}
+.react_wrapper{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.th_start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.label_start{
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+    justify-content: center;
+}
+.label_start span{
+    width: 20px;
+}
+.label_start span::after{
+    content: '*';
+}
+.ava_wrapper{
+    height: 130px;
+    width: 130px;
+    display: flex;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.form_cmt{
+    display: grid;
+    grid-gap: 20px
+}
+.form_cmt button{
+    padding: 5px 15px;
+    width: 30%;
+    border: none;
+    background-color: black;
+    color: white;
+}
+.form_cmt textarea{
+    font-size: 13px;
+}
+.form_cmt button:hover{
+    background-color: rgb(41, 41, 41);
+}
+.nth_cmt{
+    display: grid ;
+    grid-template-columns: 20% 80%;
+    grid-gap: 10px;
+    position: relative;
+}
+.avatar_customer_wrapper{
+    height: 87px;
+    width: 100%;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+}
+.content_cmt{
+    padding: 10px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 15px;
+    position: relative;
+}
+.option_cmt{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.option_cmt span{
+    cursor: pointer;
+    font-size: 13px;
+}
+.option_cmt span::after{
+    content: '-';
+    padding: 0px 5px;
+    font-size: 5px;
+}
+
+.form_rating{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.form_rating input{
+    margin-left: 15px;
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+}
+.form_rating input:hover{
+    background-color: rgb(49, 49, 49);
+
+}
+.form_rating .MuiRating-root {
+    align-items: center;
+}
+.table_of_content{
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    transform: translateY(50%);
+    margin-bottom: 50px;
+}
+.table_item{
+    margin-bottom: 20px;
+}
+.table_item a{
+    display: block;
+    padding: 5px 0px;
+    color: rgb(105, 105, 105);
+}
+.table_item img{
+    margin: 0 10px;
+}
+.table_item span{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.item_booking {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item_booking a{
+    background: linear-gradient( 45deg,rgb(255, 178, 90),rgb(255, 108, 9));
+    padding: 5px 10px;
+    border-radius: 25px;
+    color: white;
+}
